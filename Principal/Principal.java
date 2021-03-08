@@ -15,94 +15,94 @@ public class Principal {
 		//bebidas
 		Bebidas b1 = new Bebidas();
 		b1.setNome("Coca-Cola");
-		b1.setPreÁo(8.00);
+		b1.setPre√ßo(8.00);
 		b1.setTipo("Bebida");
 		
 		Bebidas b2 = new Bebidas();
-		b2.setNome("Guaran·");
-		b2.setPreÁo(7.00);
+		b2.setNome("Guaran√°");
+		b2.setPre√ßo(7.00);
 		b2.setTipo("Bebida");
 
 		Bebidas b3 = new Bebidas();
 		b3.setNome("Fanta");
-		b3.setPreÁo(7.00);
+		b3.setPre√ßo(7.00);
 		b3.setTipo("Bebida");
 		
 		Bebidas b4 = new Bebidas();
-		b4.setNome("¡gua");
-		b4.setPreÁo(4.00);
+		b4.setNome("√Ågua");
+		b4.setPre√ßo(4.00);
 		b4.setTipo("Bebida");
 		
 		Bebidas b5 = new Bebidas();
 		b5.setNome("Sprite");
-		b5.setPreÁo(7.00);
+		b5.setPre√ßo(7.00);
 		b5.setTipo("Bebida");
 		
 		Bebidas b6 = new Bebidas();
 		b6.setNome("Suco");
-		b6.setPreÁo(6.00);
+		b6.setPre√ßo(6.00);
 		b6.setTipo("Bebida");
 		
 		//comidas
 		Comidas c1 = new Comidas();
 		c1.setNome("Pizza");
-		c1.setPreÁo(25.00);
+		c1.setPre√ßo(25.00);
 		c1.setTipo("Comida");
 		
 		Comidas c2 = new Comidas();
 		c2.setNome("Coxinha");
-		c2.setPreÁo(5.00);
+		c2.setPre√ßo(5.00);
 		c2.setTipo("Comida");
 		
 		Comidas c3 = new Comidas();
 		c3.setNome("Pastel");
-		c3.setPreÁo(5.00);
+		c3.setPre√ßo(5.00);
 		c3.setTipo("Comida");
 		
 		Comidas c4 = new Comidas();
 		c4.setNome("Lasanha");
-		c4.setPreÁo(25.00);
+		c4.setPre√ßo(25.00);
 		c4.setTipo("Comida");
 		
 		Comidas c5 = new Comidas();
 		c5.setNome("Fritas");
-		c5.setPreÁo(8.00);
+		c5.setPre√ßo(8.00);
 		c5.setTipo("Comida");
 		
 		Comidas c6 = new Comidas();
 		c6.setNome("Hamburguer");
-		c6.setPreÁo(10.00);
+		c6.setPre√ßo(10.00);
 		c6.setTipo("Comida");
 		
 		//sobremesas
 		Sobremesas s1 = new Sobremesas();
 		s1.setNome("Sorvete");
-		s1.setPreÁo(10.0);
+		s1.setPre√ßo(10.0);
 		s1.setTipo("Sobremesa");
 		
 		Sobremesas s2 = new Sobremesas();
-		s2.setNome("AÁai");
-		s2.setPreÁo(10.00);
+		s2.setNome("A√ßai");
+		s2.setPre√ßo(10.00);
 		s2.setTipo("Sobremesa");
 		
 		Sobremesas s3 = new Sobremesas();
 		s3.setNome("Chocolate");
-		s3.setPreÁo(5.00);
+		s3.setPre√ßo(5.00);
 		s3.setTipo("Sobremesa");
 		
 		Sobremesas s4 = new Sobremesas();
 		s4.setNome("Bolo");
-		s4.setPreÁo(5.00);
+		s4.setPre√ßo(5.00);
 		s4.setTipo("Sobremesa");
 		
 		Sobremesas s5 = new Sobremesas();
 		s5.setNome("Mousse");
-		s5.setPreÁo(8.00);
+		s5.setPre√ßo(8.00);
 		s5.setTipo("Sobremesa");
 		
 		Sobremesas s6 = new Sobremesas();
 		s6.setNome("Salada de Frutas");
-		s6.setPreÁo(8.00);
+		s6.setPre√ßo(8.00);
 		s6.setTipo("Sobremesa");
 
 		//CalcPedido
@@ -116,14 +116,14 @@ public class Principal {
 		//Menu
 		System.out.println("Bem vindo " + nome + "!");
 		System.out.println("----- MENU DE LANCHES -----");
-		System.out.println("1- " + c1.getNome() + " (R$" + c1.getPreÁo() +  "0) | 2- " + c2.getNome() + " (R$" + c2.getPreÁo() + "0)");
-		System.out.println("3- " + c3.getNome() + " (R$" + c3.getPreÁo() +  "0) | 4- " + c4.getNome() + " (R$" + c4.getPreÁo() + "0)");
-		System.out.println("5- " + c5.getNome() + " (R$" + c5.getPreÁo() +  "0) | 6- " + c6.getNome() + " (R$" + c6.getPreÁo() + "0)");
-		System.out.println("7- PrÛximo Menu");
-		System.out.print("Digite a opÁ„o desejada: ");
-		int opÁ„o = scanner.nextInt();
+		System.out.println("1- " + c1.getNome() + " (R$" + c1.getPre√ßo() +  "0) | 2- " + c2.getNome() + " (R$" + c2.getPre√ßo() + "0)");
+		System.out.println("3- " + c3.getNome() + " (R$" + c3.getPre√ßo() +  "0) | 4- " + c4.getNome() + " (R$" + c4.getPre√ßo() + "0)");
+		System.out.println("5- " + c5.getNome() + " (R$" + c5.getPre√ßo() +  "0) | 6- " + c6.getNome() + " (R$" + c6.getPre√ßo() + "0)");
+		System.out.println("7- Pr√≥ximo Menu");
+		System.out.print("Digite a op√ß√£o desejada: ");
+		int op√ß√£o = scanner.nextInt();
 		
-			switch (opÁ„o) {
+			switch (op√ß√£o) {
 			
 			case 1:{
 				v1.setValor1(25.0);
@@ -157,24 +157,25 @@ public class Principal {
 				}
 			case 7:{
 				v1.setValor1(0);
+				v1.setInfo1("");
 				break;
 				}
 			default:
-				System.out.print("OpÁ„o inv·lida");
+				System.out.print("Op√ß√£o inv√°lida");
 				break;
 			}
 			
 		//Menu bebidas
 		System.out.println("----- MENU DE BEBIDAS-----");
-		System.out.println("1- " + b1.getNome() + " (R$" + b1.getPreÁo() +  "0) | 2- " + b2.getNome() + " (R$" + b2.getPreÁo() + "0)");
-		System.out.println("3- " + b3.getNome() + " (R$" + b3.getPreÁo() +  "0) | 4- " + b4.getNome() + " (R$" + b4.getPreÁo() + "0)");
-		System.out.println("5- " + b5.getNome() + " (R$" + b5.getPreÁo() +  "0) | 6- " + b6.getNome() + " (R$" + b6.getPreÁo() + "0)");
-		System.out.println("7- PrÛximo Menu");
-		System.out.print("Digite a opÁ„o desejada: ");
-		int opÁ„o2 = scanner.nextInt();
+		System.out.println("1- " + b1.getNome() + " (R$" + b1.getPre√ßo() +  "0) | 2- " + b2.getNome() + " (R$" + b2.getPre√ßo() + "0)");
+		System.out.println("3- " + b3.getNome() + " (R$" + b3.getPre√ßo() +  "0) | 4- " + b4.getNome() + " (R$" + b4.getPre√ßo() + "0)");
+		System.out.println("5- " + b5.getNome() + " (R$" + b5.getPre√ßo() +  "0) | 6- " + b6.getNome() + " (R$" + b6.getPre√ßo() + "0)");
+		System.out.println("7- Pr√≥ximo Menu");
+		System.out.print("Digite a op√ß√£o desejada: ");
+		int op√ß√£o2 = scanner.nextInt();
 			
 			
-			switch (opÁ„o2) {
+			switch (op√ß√£o2) {
 			
 			case 1:{
 				v1.setValor2(8.0);
@@ -183,7 +184,7 @@ public class Principal {
 				}
 			case 2:{
 				v1.setValor2(7.0);
-				v1.setInfo2("Guaran·");
+				v1.setInfo2("Guaran√°");
 				break;
 				}
 			case 3:{
@@ -193,7 +194,7 @@ public class Principal {
 				}
 			case 4:{
 				v1.setValor2(4.0);
-				v1.setInfo2("¡gua");
+				v1.setInfo2("√Ågua");
 				break;
 				}
 			case 5:{
@@ -208,23 +209,24 @@ public class Principal {
 				}
 			case 7:{
 				v1.setValor2(0);
+				v1.setInfo2("");
 				break;
 				}
 			default:
-				System.out.print("OpÁ„o inv·lida");
+				System.out.print("Op√ß√£o inv√°lida");
 				break;
 			}
 		
 		//Menu sobremesas
 		System.out.println("----- MENU DE SOBREMESAS-----");
-		System.out.println("1- " + s1.getNome() + " (R$" + s1.getPreÁo() +  "0) | 2- " + s2.getNome() + " (R$" + s2.getPreÁo() + "0)");
-		System.out.println("3- " + s3.getNome() + " (R$" + s3.getPreÁo() +  "0) | 4- " + s4.getNome() + " (R$" + s4.getPreÁo() + "0)");
-		System.out.println("5- " + s5.getNome() + " (R$" + s5.getPreÁo() +  "0) | 6- " + s6.getNome() + " (R$" + s6.getPreÁo() + "0)");
+		System.out.println("1- " + s1.getNome() + " (R$" + s1.getPre√ßo() +  "0) | 2- " + s2.getNome() + " (R$" + s2.getPre√ßo() + "0)");
+		System.out.println("3- " + s3.getNome() + " (R$" + s3.getPre√ßo() +  "0) | 4- " + s4.getNome() + " (R$" + s4.getPre√ßo() + "0)");
+		System.out.println("5- " + s5.getNome() + " (R$" + s5.getPre√ßo() +  "0) | 6- " + s6.getNome() + " (R$" + s6.getPre√ßo() + "0)");
 		System.out.println("7- Nenhum");
-		System.out.print("Digite a opÁ„o desejada: ");
-		int opÁ„o3 = scanner.nextInt();
+		System.out.print("Digite a op√ß√£o desejada: ");
+		int op√ß√£o3 = scanner.nextInt();
 		
-			switch (opÁ„o3) {
+			switch (op√ß√£o3) {
 			
 			case 1:{
 				v1.setValor3(10.0);
@@ -233,7 +235,7 @@ public class Principal {
 				}
 			case 2:{
 				v1.setValor3(10.0);
-				v1.setInfo3("AÁai");
+				v1.setInfo3("A√ßai");
 				break;
 				}
 			case 3:{
@@ -258,17 +260,18 @@ public class Principal {
 				}
 			case 7:{
 				v1.setValor3(0);
+				v1.setInfo3("");
 				break;
 				}
 			default:
-				System.out.print("OpÁ„o inv·lida");
+				System.out.print("Op√ß√£o inv√°lida");
 				break;
 			}		
 			
 		System.out.println("\n-----VALOR DO PEDIDO-----");
-		System.out.println("Ol· " + nome + ", Obrigado pela prefÍrencia!");
+		System.out.println("Ol√° " + nome + ", Obrigado pela pref√™rencia!");
 		System.out.println("Seu pedido foi: " + v1.getInfo1() + ", " + v1.getInfo2() + ", " + v1.getInfo3() + "." );
-		System.out.println("O valor da sua compra È: R$" + v1.Soma() + "0");
+		System.out.println("O valor da sua compra √©: R$" + v1.Soma() + "0");
 		System.out.print("------------------------");
 	  }
 	}
